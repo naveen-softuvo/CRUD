@@ -51,7 +51,7 @@ router.put('/:id',(req,res)=>{
             res.send(docs);
         }
         else{
-            console.log("unable to update==>"+err);
+            console.log("unable to update",err);
         }
     });
 })
